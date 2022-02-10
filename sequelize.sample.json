@@ -1,0 +1,33 @@
+{
+  "dialect": "mariadb",
+  "database": "jewerly",
+  "username": "root",
+  "password": "password",
+  "host": "localhost",
+  "port": 3306,
+  "sync": {
+    "force": false,
+    "alter": {
+      "drop": false
+    }
+  },
+  "replication": {
+    "read": [
+      {
+        "database": "jewerly",
+        "username": "root",
+        "password": "password",
+        "host": "localhost",
+        "port": 3306
+      }
+    ],
+    "write": {
+      "database": "jewerly",
+      "username": "root",
+      "password": "password",
+      "host": "localhost",
+      "port": 3306
+    }
+  },
+  "timezone": "+09:00"
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "pretty": true,
+    "noImplicitReturns": false,
+    "noUnusedParameters": false,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "skipLibCheck": true
+  },
+  "exclude": ["lambda.ts"]
+}
